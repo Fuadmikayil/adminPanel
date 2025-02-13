@@ -35,7 +35,7 @@ const AdminProducts = () => {
       <div className="overflow-x-auto">
         <table className="w-full text-gray-400">
           <thead>
-            <tr className="flex justify-between items-center p-4 border-y-2 border-gray-200 tracking-wide">
+            <tr className="grid grid-cols-7 justify-between items-center p-4 border-y-2 border-gray-200 tracking-wide">
               <th className="font-medium">
                 <BiSortAlt2 className="scale-150" />
               </th>
@@ -48,8 +48,8 @@ const AdminProducts = () => {
             </tr>
           </thead>
           <tbody>
-            <tr className="flex justify-between p-4 items-center border-b border-gray-200">
-              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg">
+            <tr className="grid grid-cols-7 gap-8 p-4 items-center text-center border-b border-gray-200">
+              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg mr-14">
                 <Image src={product1} alt="product1" width={50} height={50} />
               </td>
               <td>Mens Black T-Shirts</td>
@@ -57,10 +57,10 @@ const AdminProducts = () => {
               <td>$35.00</td>
               <td>In Stock</td>
               <td>T-shirt, Men</td>
-              <td className="text-gray-500 text-start">...</td>
+              <td className="text-gray-500 text-center">...</td>
             </tr>
-            <tr className="flex justify-between p-4 items-center border-b border-gray-200">
-              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg">
+            <tr className="grid grid-cols-7 gap-8 p-4 items-center text-center border-b border-gray-200">
+            <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg mr-14">
               <Image src={product1} alt="product1" width={50} height={50} />
 
               </td>
@@ -69,10 +69,10 @@ const AdminProducts = () => {
               <td>$35.00</td>
               <td>In Stock</td>
               <td>T-shirt, Men</td>
-              <td className="text-gray-500 text-start">...</td>
+              <td className="text-gray-500 text-center">...</td>
             </tr>
-            <tr className="flex justify-between p-4 items-center border-b border-gray-200">
-              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg">
+            <tr className="grid grid-cols-7 gap-8 p-4 items-center text-center border-b border-gray-200">
+              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg mr-14">
               <Image src={product1} alt="product1" width={50} height={50} />
 
               </td>
@@ -81,7 +81,7 @@ const AdminProducts = () => {
               <td>$35.00</td>
               <td>In Stock</td>
               <td>T-shirt, Men</td>
-              <td className="text-gray-500 text-start">...</td>
+              <td className="text-gray-500 text-center">...</td>
             </tr>
           </tbody>
         </table>
