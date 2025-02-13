@@ -40,8 +40,8 @@ const AdminOrder = () => {
             </tr>
           </thead>
           <tbody>
-            <tr className="grid grid-cols-6 gap-8 p-4 items-center text-center border-b border-gray-200">
-              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg mr-14">
+            <tr className="grid grid-cols-6 gap-8 p-2 items-center text-center border-b border-gray-200">
+              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg w-28">
                 <Image src={product1} alt="product1" width={50} height={50} />
               </td>
               <td>Mens Black T-Shirts</td>
@@ -50,8 +50,8 @@ const AdminOrder = () => {
               <td>Processing</td>
               <td className="text-gray-500 text-center">...</td>
             </tr>
-            <tr className="grid grid-cols-6 gap-8 p-4 items-center text-center border-b border-gray-200">
-              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg mr-14">
+            <tr className="grid grid-cols-6 gap-8 p-2 items-center text-center border-b border-gray-200">
+              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg w-28">
                 <Image src={product1} alt="product1" width={50} height={50} />
               </td>
               <td>Mens Black T-Shirts</td>
@@ -60,8 +60,8 @@ const AdminOrder = () => {
               <td>Processing</td>
               <td className="text-gray-500 text-center">...</td>
             </tr>
-            <tr className="grid grid-cols-6 gap-8 p-4 items-center text-center border-b border-gray-200">
-              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg mr-14">
+            <tr className="grid grid-cols-6 gap-8 p-2 items-center text-center border-b border-gray-200">
+              <td className="flex justify-center items-center bg-neutral-100 py-1 px-2 rounded-lg w-28">
                 <Image src={product1} alt="product1" width={50} height={50} />
               </td>
               <td>Mens Black T-Shirts</td>
